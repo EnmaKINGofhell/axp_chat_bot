@@ -1,0 +1,54 @@
+[
+  {
+    "type": "ai",
+    "content": "Hello! I'm a SQL assistant. Ask me anything about your database."
+  },
+  {
+    "type": "human",
+    "content": "How many invoices are there in the invhdr table?"
+  },
+  {
+    "type": "ai",
+    "content": "There are 19 invoices in the system."
+  },
+  {
+    "type": "human",
+    "content": "Show all invoice details for a specific Invoice ID from invdtl."
+  },
+  {
+    "type": "ai",
+    "content": "The invoice with ID 'B825CCE7-3D3A-4785-894F-FB6756965B5D' contains one item.  This item has no item code, is described as \"asdasd\", has a quantity of 1.00000, a unit price of 10000.00000, and a total extended price of 10000.00000.  The item is associated with Account '56200', Project 'P1', and Entity 'AERO'.  No Purchase Order (PO) information is available for this item."
+  },
+  {
+    "type": "human",
+    "content": "give me the sql code for that"
+  },
+  {
+    "type": "ai",
+    "content": "The invoice with ID B825CCE7-3D3A-4785-894F-FB6756965B5D contains one item.  This item has a description of \"asdasd\", a quantity of 1, and a unit price of 10000.00. The total price for this item is 10000.00.  No purchase order information is available for this item.  The item is associated with account 56200, project P1, and entity AERO."
+  },
+  {
+    "type": "human",
+    "content": "give me sql query for that "
+  },
+  {
+    "type": "ai",
+    "content": "Invoice B825CCE7-3D3A-4785-894F-FB6756965B5D contains one item:  'asdasd'.  The quantity is 1.00000, the unit price is 10000.00000, and the total extended price is 10000.00000.  The accounting information shows this item is associated with account '56200', project 'P1', and entity 'AERO'."
+  },
+  {
+    "type": "human",
+    "content": "What is the total invoice amount for each supplier?"
+  },
+  {
+    "type": "ai",
+    "content": "The query calculates the total invoice amount for each supplier.  The results show that supplier '00050010' has a total invoice amount of $801,026.00, and supplier '10000' has a total invoice amount of $313,343.00."
+  },
+  {
+    "type": "human",
+    "content": "Show me the SQL command"
+  },
+  {
+    "type": "human",
+    "content": "List all suppliers from the suppmaster table who are active."
+  }
+]
